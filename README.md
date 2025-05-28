@@ -1,5 +1,6 @@
 # tareaclases
 
+
 # App 3 – El Bosque de las Runas Mágicas (Paradigma Funcional)
 
 ## TICS200 - LPP 2024
@@ -51,3 +52,83 @@ Un mago quiere atravesar un bosque encantado lleno de runas que modifican su ene
  [ 2, -1, 4, 0, -5, 1],
  [ 0, 2, -3, 3, 4, -1],
  [ 1, 0, 2, -2, 1, 5]]
+```
+
+- Energía inicial: `12`
+
+#### Salida Esperada
+
+- Lista con las coordenadas del camino válido con mayor energía final.  
+- Energía final.
+
+### 2.3 Restricciones de Implementación
+
+- Usar programación funcional pura (sin variables mutables, ni bucles).  
+- Solución basada en recursión y/o uso de `map`, `filter`, `reduce`.  
+- Lenguaje obligatorio: **Haskell**
+
+---
+
+## 3. Bonus y Detalles de la Entrega
+
+- Agregar runas especiales:
+  - `"T"` (teletransportador): envía al mago a otra coordenada si tiene energía suficiente.  
+  - `"D"` (doble salto): permite movimiento diagonal especial.
+
+- **Fecha de entrega:** 9 y 10 de junio, 23:59 hrs (según sección).  
+- Por cada día de atraso, se descuenta 1 punto desde las 00:00 del día siguiente.
+
+---
+
+## 4. Formato de Entrega (GitHub)
+
+### Repositorio
+
+- Crear un repositorio llamado `App3`.  
+- Repositorio privado, incluir a todos los integrantes, profesores y ayudante como colaboradores.  
+
+### Uso de Git
+
+- Commits equilibrados entre todos los integrantes.  
+- Se evaluará el historial de commits y uso de Pull Requests.
+
+### Estructura del Repositorio
+
+- Código fuente en Haskell, organizado y documentado.  
+- Reflexiones finales / Autoevaluación:
+  - ¿Qué fue lo más desafiante de implementar en paradigma funcional?
+  - ¿Qué aprendizajes surgieron del proyecto?
+- Explicación del uso de IA (si aplica):
+  - ¿Qué tipo de ayuda proporcionó la herramienta?
+  - ¿Cómo validaron o contrastaron las sugerencias?
+- `README.md` con:
+  - Instrucciones de compilación y ejecución.
+  - Datos de los integrantes (nombre, correo, etc.).
+
+---
+
+## 5. Rúbrica de Evaluación
+
+| Criterio | Peso | Descripción |
+|---------|------|-------------|
+| Funcionamiento general | 30% | Compila y ejecuta correctamente; calcula el mejor camino según las reglas. |
+| Paradigma funcional | 30% | Uso de funciones puras, recursión, inmutabilidad, composición, etc. |
+| Informe de diseño y reflexiones | 10% | Documento claro que explique diseño, decisiones y mejoras. |
+| Git y organización | 20% | Commits equilibrados, estructura clara, `README.md` completo. |
+| Presentación | 10% | Presentación funcional del proyecto en clases. |
+
+---
+
+## 6. Ejemplo de Uso
+
+```bash
+App3 MatrizBosqueInicial EnergiaInicial
+```
+
+---
+
+## 7. Conclusión
+
+La App #3 busca afianzar conocimientos del paradigma funcional usando Haskell. Se espera un uso adecuado de Git para evidenciar el trabajo colaborativo y el aprendizaje de cada integrante.
+
+---
